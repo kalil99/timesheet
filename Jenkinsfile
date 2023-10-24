@@ -21,4 +21,4 @@ pipeline {
           stage('Exécution des tests') {
             steps {
                 sh "mvn test "  // Run JUnit tests
-            }}}
+            }}}}
